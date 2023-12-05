@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="drawerlayout" type="id" />
+    <item name="navview" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="drawer_layout" type="id" />
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/action_earning">
+
+    <fragment
+        android:id="@+id/action_earning"
+        android:name="com.example.iqinvest.EarningFragment"
+        android:label="Earnings"
+        tools:layout="@layout/activity_earning_fragment" />
+
+    <fragment
+        android:id="@+id/action_account_stats"
+        android:name="com.example.iqinvest.AccountStatsFragment"
+        android:label="Account Stats"
+        tools:layout="@layout/activity_account_stats_fragment" />
+
+    <fragment
+        android:id="@+id/action_shop"
+        android:name="com.example.iqinvest.ShopFragment"
+        android:label="Shop"
+        tools:layout="@layout/activity_shop_fragment" />
+</navigation>
